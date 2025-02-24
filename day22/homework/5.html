@@ -1,0 +1,57 @@
+<!-- REGISTER გვერდზე უნდა იყოს სარეგისტრაციო ფორმა, სადაც მომხმარებელს მოსთხოვთ მის: სახელს,
+  გვარს, ემაილს, პაროლს, ასაკს, სქესს, ქვეყანას, საყვარელ ფერს და ტელეფონის ნომერს (ქვეყნის ასარჩევად
+   გამოიყენეთ DropDown Menu, ფერის ასარჩევად გამოიყენეთ <input type="color">, სქესის ასარჩევად გამოიყენეთ 
+   radio... ბოლოს უნდა გქონდეთ დადასტურების ღილაკი და ეს მონაცემები უნდა გქონდეთ სწორედ დახარისხებულ
+   ი + სწორედ დაკავშირებული label-ებით და ასევე გამოყენებული უნდა გქონდეთ placeholder-ები...-->
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widih=divice-widih, initial-scale=1.0">
+    <title>REGISTER</title>
+</head>
+<body>
+   <from>
+    <label for="firstname">Firstname:</label>
+    <input type="firstname" id="firstname" placeholder="firstname"><br>
+
+    <label for="lastname">Lastname:</label>
+    <input type="lastname" id="lastname" placeholder="lastname"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="email"><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="password"><br>
+
+    <label for="age">Age:</label>
+    <input type="age" id="age"><br>
+     
+   
+
+    <input type="radio"id="male"name="gender"placehlder="male"ovalue="male">
+    <label for="male">male</label><br>
+
+    <input type="radio"id="female"name="gender"placeholder="female"value="female">
+    <label for="female">female</label><br>
+
+    <input type="color"><br>
+
+  
+        <select name="country">
+            <option value="georgia">Georgia</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="russia">Russia</option>
+            <option value="usa" selected disabled> USA </option><br>
+        </select>
+    
+
+
+
+
+</form>
+    
+</body>
+</html>

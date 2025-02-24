@@ -1,0 +1,37 @@
+<!--
+
+0)კომენტარის სახით ახსენით რაში გამოიყენება name ატრიბუტი ფორმაში და რაში გამოიყენება value ატრიბუტი
+
+1)კომენტარის სახით ახსენით რა განსხვავებაა disabled და selected ატრიბუტს შორის
+
+2)შექმენით სარეგისტრაციო ფორმა, სადაც მომხმარებელს შემოატანინებთ მის ქვეყანას (drop down menu), შემოტანინებთ მის სახელს და შემოატანინებთ მის გვარს, შექმენით დადასტურების ღილაკი და სწორედ დაახარისხეთ ეს მონაცემები name ატრიბუტის მეშვებოით (ყველაფერი ახსენით კომენტარების სახით)-->
+<!--name განსაზღვრავს ელემენტის სახელს, value - მნიშვნელობას.
+disabled გამორთავს ელემენტს, selected არჩეულს ხდის.-->
+<!DOCTYPE html>
+    <html>
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widih=divice-widih, initial-scale=1.0">
+        <title>sing in</title>
+    </head>
+    <body>
+    <label for="firstname">Firstname:</label>
+    <input type="firstname" id="firstname"><br>
+
+    <label for="lastname">Lastname:</label>
+    <input type="lastname" id="lastname"><br>
+        <form>
+            <select name="country">
+                <option value="georgia">Georgia</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="russia">Russia</option>
+                <option value="usa">USA</option>
+                <option value="italy">italy</option>
+                <option value="spanie">spanie</option>
+            </select>
+    
+            <input type="submit">
+        </form>
+    </body>

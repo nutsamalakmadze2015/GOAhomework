@@ -1,0 +1,42 @@
+body {
+    background-color: #222;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+#b {
+    font-size: xx-large;
+}
+#b:hover {
+    color: blueviolet;
+}
+
+#c {
+    font-size: large;
+}
+#c:hover {
+    font-size: x-large;
+    color: blue;
+}
+
+#d {
+    font-size: x-large;
+}
+#d:hover {
+    font-size: xx-large;
+    color: aqua;
+}
+#e {
+    font-size: small;
+}
+#e:hover {
+    font-size: large;
+    color: rgb(76, 42, 107);
+}#f {
+    font-size: xx-large;
+}
+#f:hover {
+    color: rgb(33, 172, 190);
+}

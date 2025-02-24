@@ -1,0 +1,9 @@
+img {
+  color: white;
+  text-decoration: none;
+  transition: 3s;
+  width: 300px;
+}
+img:hover{
+  width: 500px;
+}

@@ -1,0 +1,41 @@
+#a {
+    text-align: center;
+    text-decoration: green 1px wavy underline;
+}
+#b {
+    text-decoration: line-through;
+    text-align: left;
+}
+#c{
+    text-decoration: overline double red;
+   
+}
+#d{
+    text-decoration: underline;
+   
+}
+#e{
+    text-decoration: line-through dotted blue; 
+    text-align: center;
+}
+#f{
+    text-decoration: line-through;
+  
+}
+#g{
+    text-decoration: overline ;
+  
+}
+#h{
+    text-decoration: overline green;
+    text-align: center;
+    color: green;
+}
+#i{
+    text-decoration: underline purple;
+    color: purple;
+}
+#j{
+    text-decoration: underline dotted blue;
+    text-align: center;
+}

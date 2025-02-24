@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+h1 {
+    font-family: "Dancing Script", serif;
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+h2 {
+    font-family: "Pacifico", serif;
+    font-weight: 900;
+}
